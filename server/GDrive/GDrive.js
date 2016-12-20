@@ -10,8 +10,8 @@ var FILE = require('fs');
 var mime = require('mime');
 var path = require('path');
 var events_1 = require('events');
-var CLIENT_ID = '525505706123-hq707rcuqnjvuv1d21gt28j1or73llcc.apps.googleusercontent.com';
-var CLIENT_SECRET = 'Rj5Ixo9uzH0htHhnRAeUTbK';
+var CLIENT_ID = '525505706123-a8k4mfk4s01bhlk9e83k6lsqu6otp984.apps.googleusercontent.com';
+var CLIENT_SECRET = 'AvKQ7s3bVoQ-DKt3YRVq8s5Z';
 var REDIRECT_URL = 'https://mitorrent.herokuapp.com/oauthCallback';
 var SCOPES = [
     'https://www.googleapis.com/auth/plus.me',
