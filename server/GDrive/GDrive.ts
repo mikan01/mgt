@@ -5,9 +5,9 @@ import * as mime from 'mime';
 import * as path from 'path';
 import { EventEmitter } from 'events';
 
-const CLIENT_ID = process.env.525505706123-hq707rcuqnjvuv1d21gt28j1or73llcc.apps.googleusercontent.com;
-const CLIENT_SECRET = process.env.Rj5Ixo9uzH0htHhnRAeUTbKl;
-const REDIRECT_URL = process.env.https://mitorrent.herokuapp.com/oauthCallback;
+const CLIENT_ID = '525505706123-hq707rcuqnjvuv1d21gt28j1or73llcc.apps.googleusercontent.com';
+const CLIENT_SECRET = 'Rj5Ixo9uzH0htHhnRAeUTbK';
+const REDIRECT_URL = 'https://mitorrent.herokuapp.com/oauthCallback';
 const SCOPES = [
     'https://www.googleapis.com/auth/plus.me',
     'https://www.googleapis.com/auth/drive'
